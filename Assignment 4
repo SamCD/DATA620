@@ -1,0 +1,5 @@
+The Spotify API (https://developer.spotify.com/documentation/web-api/reference/object-model/) provides access to data and metadata about music available in the Spotify catalogue. I would like to use this API to create a series of nodes and edges showing relationships between specific tracks.
+
+The way I would compile this data is through the Playlist object. Each Playlist object called through the API returns a list of tracks in that playlist. By calling random playlists and iterating through the tracks in each one playlist, I can create a series of edges showing song pairings within a playlist.
+
+Using degree centrality measures, I can identify songs which are well-liked, as well as those that span across diverse tastes and genres.
